@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body>
+    <nav class="bg-white flex justify-between shadow-2xl p-2">
+        <div class="flex justify gap-3 items-center ">
+            <img class="w-1/6 " src="./assets/github-logo.png" alt="">
+            <h2 class="font-bold ">GitHub Issues Tracker</h2>
+        </div>
+        <div class=" flex gap-1.5 items-center">
+            <input class="border-gray-200 rounded h-6" type="text"  placeholder=" + Search issues...">
+            <button class="btn btn-primary w-28 h-6">+   New Issue</button>
+        </div>
+    </nav>
+
+    <section class="flex gap-2 w-11/12 bg-white mt-10 mx-auto p-3 shadow-2xl">
+        <div>
+            <button class="btn btn-primary w-20 h-8">All</button>
+        </div>
+        <div>
+            <button class="btn btn-primary w-20 h-8 ">Open</button>
+        </div>
+        <div>
+            <button class="btn btn-primary w-20 h-8">Closed</button>
+        </div>
+    </section>
+
+</body>
+</html>
